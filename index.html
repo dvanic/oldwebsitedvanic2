@@ -1,38 +1,18 @@
 ---
 layout: default
 title: Home
+comments : false
 ---
 
-<div class="posts">
-  {% for post in paginator.posts %}
-  <div class="post">
-    <h1 class="post-title">
-      <a href="{{ post.url }}">
-        {{ post.title }}
-      </a>
-    </h1>
 
-    <span class="post-date">{{ post.date | date_to_string }}</span>
+<img alt="daryavanichkina" src="/images/daryavanichkina.jpg" width="250" height="250" align="right" style="margin: 10px 10px">
 
-    {{ post.content }}
-  </div>
-  {% endfor %}
-</div>
+<p style="text-align:justify">I am a Bioinformatics PhD student at the Institute for Molecular Bioscience at the University of Queensland. I work under the supervision of Dr. Ryan Taft, Associate Professor Ernst Wolvetang, Dr. Cas Simons and Professor John Mattick.</p>
 
-<div class="pagination">
-  {% if paginator.next_page %}
-    <a class="pagination-item older" href="{{ site.baseurl }}page{{paginator.next_page}}">Older</a>
-  {% else %}
-    <span class="pagination-item older">Older</span>
-  {% endif %}
-  {% if paginator.previous_page %}
-    {% if paginator.page == 2 %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}">Newer</a>
-    {% else %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}page{{paginator.previous_page}}">Newer</a>
-    {% endif %}
-  {% else %}
-    <span class="pagination-item newer">Newer</span>
-  {% endif %}
-</div>
+<p style="text-align:justify">My <a href="/research.html">research</a> focuses on using high-throughput sequencing to understand changes in the transcriptome that occur during neuronal functioning in normal cells and in disease; and on induced pluripotent stem cells as models of the human nervous system. I am also passionate about <a href="teaching.html">teaching</a>, especially programming and bioinformatics to biologists.</p> 
 
+<p style="text-align:justify">I hold a <a href="/cv.html">Specialist Degree in Biochemistry with a Major in Molecular Biology</a> from Lomonosov Moscow State University.</p>
+
+<p style="text-align:justify">I <a href="/blog">blog</a> on next generation sequencing data analysis and maintain a personal <a href="https://sites.google.com/site/dvanicwiki">wiki</a> to collect relevant code, techniques and recommendations from the web and genomics software mailing lists. I am also an active <a href="https://twitter.com/dvanichkina">tweeter</a>.</p>
+
+<p style="text-align:justify">In my free time, I enjoy reading, hiking/bushwalking and learning about the history and culture of the places I am fortunate enough to live in or travel to.</p>
