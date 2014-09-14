@@ -2,8 +2,8 @@
 layout: post
 title: Hello World!
 tags:
-- random
-- jekyll 
+- other
 ---
 This is the 1st post for this new Jekyll-powered blog.
-Welcome
+
+Welcome to my blog! 
