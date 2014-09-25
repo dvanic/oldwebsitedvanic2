@@ -15,7 +15,7 @@ Institute for Molecular Bioscience Ambassador program (August 2012 – present)
 #### Tutor
 School of Chemistry and Molecular Bioscience, University of Queensland (February 2011 – present)
 
-* Since the first semester of my PhD I have tutored second and third year undergraduate courses at UQ in Molecular and Cell Biology, Microbiology, Genetics and Bioinformatics. These include BIOL3004 (Semester 1, 2013), BIOL2200 (Semester 1, 2012; Semester 1, 2013), MICR3004 (Semester 2, 2012; Semester 2, 2013), MICR3003 (Semester 1, 2011; Semester 1, 2012) and BIOL2202 (Semester 2, 2011).
+* Since the first semester of my PhD I have tutored second and third year undergraduate courses at UQ in Molecular and Cell Biology, Microbiology, Genetics and Bioinformatics. These include BIOL3004 (Semester 1, 2013; Semester 1,2014), BIOL2200 (Semester 1, 2012; Semester 1, 2013; Semester 1, 2014), MICR3004 (Semester 2, 2012; Semester 2, 2013), MICR3003 (Semester 1, 2011; Semester 1, 2012) and BIOL2202 (Semester 2, 2011).
 
 * These practical courses not only teach crucial laboratory and computational methodologies, but also allow students majoring in science to interact with tutors and ask about the realities of doing research, how to apply for Honours, and what life in the scientific world is like; according to the majority of students I have interacted with, these courses represent the first time during their undergraduate education they have such mentorship. I feel extremely privileged to be able to tutor at UQ, since it allows me to inspire students about how exciting biological science really is, how important it is (and will be) for medicine and therapeutics, and that they can make novel contributions to the field if they choose to pursue a career in it.
 
