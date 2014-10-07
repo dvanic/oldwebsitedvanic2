@@ -20,6 +20,6 @@ title: Wiki
 
 ## Git
 
-[Customize how git log is displayed](/wikipages/gitlog.md)
+[Customize how git log is displayed](/wikipages/gitlog.html)
 
-## [LaTeX things I like to forget](/wikipages/latex.md)
+## [LaTeX things I like to forget](/wikipages/latex.html)
