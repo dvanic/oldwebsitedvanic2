@@ -2,5 +2,5 @@
 layout: page
 title: Wiki
 ---
-[a relative link](/wikipages/test.md)
-
+## Bash
+[Simple awk scripts that extracts junctions from SAM](/wikipages/junctions.txt)
