@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 ## LaTeX notes
 
 ### Beamer change background for only a subset of frames
