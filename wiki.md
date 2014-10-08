@@ -18,6 +18,18 @@ title: Wiki
 
 [Touch recursively](/wikipages/touch.txt)
 
+## R
+
+[At least one value in row](/wikipages/r/least1valuerow.html)
+
+[biomaRt](/wikipages/r/biomart.html)
+
+[Export to xlsx](/wikipages/r/xlsx.html)
+
+[Grep](/wikipages/r/grep.html)
+
+[Merge two data frames](/wikipages/r/merge2df.html)
+
 ## Git
 
 [Customize how git log is displayed](/wikipages/gitlog.html)
@@ -28,16 +40,14 @@ title: Wiki
 
 ## NGS
 
-[STAR](/wikipages/star.html)
-
-[MATS](/wikipages/mats.html)
+[STAR](/wikipages/star.html) [MATS](/wikipages/mats.html)
 
 
 
 ## Others to do.
 
-- R
+- R: finish
 - Python
 - personal
-- ngs
+
 

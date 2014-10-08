@@ -6,6 +6,7 @@ title: STAR
 ## Interpreting output logs 
 
 Example taken from [here](http://seqanswers.com/forums/showthread.php?t=29769)
+
 	Started job on |	Mar 15 04:59:21
 	Started mapping on |	Mar 15 05:02:08
 	Finished on |	Mar 15 05:29:49
@@ -90,7 +91,7 @@ If the number of unmapped reads "too short" is very high
 
 There are three main explanations for poor mappability with large proportion of unmapped alignments reported as "too short": 
 
-From STAR google groups [https://groups.google.com/forum/#!topic/rna-star/7RwKkvNLmI4 thread]
+From [STAR google groups](https://groups.google.com/forum/#!topic/rna-star/7RwKkvNLmI4 thread)
 
 1. Poor sequencing quality.
 
