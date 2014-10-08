@@ -15,4 +15,5 @@ Primitive grep function
 	}
 
 General grep syntax
+
     counttable.complete[grep("ENSG00000252985", counttable.complete$Gene, ignore.case=T),]
