@@ -22,4 +22,22 @@ title: Wiki
 
 [Customize how git log is displayed](/wikipages/gitlog.html)
 
-## [LaTeX things I like to forget](/wikipages/latex.html)
+## LaTeX 
+
+[Things I like to forget](/wikipages/latex.html)
+
+## NGS
+
+[STAR](/wikipages/star.html)
+
+[MATS](/wikipages/mats.html)
+
+
+
+## Others to do.
+
+- R
+- Python
+- personal
+- ngs
+
