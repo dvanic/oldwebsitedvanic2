@@ -30,6 +30,25 @@ title: Wiki
 
 [Merge two data frames](/wikipages/r/merge2df.html)
 
+[Mixomics PCA](/wikipages/r/mixomics.html)
+
+[Mode and not in](/wikipages/r/modenotin.html)
+
+[Order data frame](/wikipages/r/orderdf.html)
+
+[Paste text into R and make data frame](/wikipages/r/paste.html)
+
+[Pretty output with xtable](/wikipages/r/xtable.html)
+
+[Pretty output similar to ls -1](/wikipages/r/ct.html)
+
+[Get sequence from biomaRt](/wikipages/r/biomartseq.html)
+
+[Venn](/wikipages/r/venn.html)
+
+[Volcano](/wikipages/r/volcano.html)
+
+
 ## Git
 
 [Customize how git log is displayed](/wikipages/gitlog.html)
