@@ -1,7 +1,9 @@
 ---
 layout: page
 title: Wiki
+published: true
 ---
+
 ## Bash
 
 [Simple awk scripts that extracts junctions from SAM](/wikipages/junctions.txt)
@@ -13,6 +15,8 @@ title: Wiki
 [For 1 to 100](/wikipages/for1to100.txt)
 
 [Grep with lines above/below the current one// get only some characters around the match](/wikipages/greppy.txt)
+
+[Sed with newline and quotes](/wikipages/sedwnewline.html)
 
 [Sort folders in current directory by number of files in the folders](/wikipages/sortdir.txt)
 
@@ -68,5 +72,3 @@ title: Wiki
 - R: finish
 - Python
 - personal
-
-
