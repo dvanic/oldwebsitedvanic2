@@ -1,3 +1,8 @@
+---
+layout: default
+title: Sed with newline and quotes
+---
+
 ## Sed with newline and quotes (that actually works!)
 
 Very simple problem - very simple solution:
