@@ -44,3 +44,7 @@ For specific pages
 
     « \guillemotleft
     » \guillemotright
+
+Nice tilde
+
+    {\raise.17ex\hbox{$\scriptstyle\sim$}}
