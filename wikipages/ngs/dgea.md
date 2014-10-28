@@ -1,8 +1,7 @@
-===
+------
 layout: default
 title: Notes on differential gene expression analysis 
-===
-
+------
 
 ## Testing for no change in RNA-seq differential gene expression
 ( from the bioconductor mailing list; Simon Anders)
