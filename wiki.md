@@ -63,8 +63,7 @@ published: true
 
 ## NGS
 
-[STAR](/wikipages/star.html) [MATS](/wikipages/mats.html)
-
+[STAR](/wikipages/ngs/star.html) [MATS](/wikipages/ngs/mats.html) [DGEA](/wikipages/ngs/dgea.html)
 
 
 ## Others to do.
