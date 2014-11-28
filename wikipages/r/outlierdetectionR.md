@@ -1,6 +1,6 @@
 ---
-layout = default
-title = Beautiful outlier test and visualization in R
+layout: default
+title:  Beautiful outlier test and visualization in R
 ---
 
     library(outliers)
