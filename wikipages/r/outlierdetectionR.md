@@ -31,4 +31,4 @@ title = Beautiful outlier test and visualization in R
       theme_bw()
     
     
-  Taken from [here](http://stackoverflow.com/questions/22837099/how-to-repeat-the-grubbs-test-and-flag-the-outliers)
+Taken from [here](http://stackoverflow.com/questions/22837099/how-to-repeat-the-grubbs-test-and-flag-the-outliers)

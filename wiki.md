@@ -40,6 +40,8 @@ published: true
 
 [Order data frame](/wikipages/r/orderdf.html)
 
+[Outlier detection and visualization using the Grubbs test](/wikipages/r/outlierdetectionR.html)
+
 [Paste text into R and make data frame](/wikipages/r/paste.html)
 
 [Pretty output with xtable](/wikipages/r/xtable.html)
