@@ -170,4 +170,15 @@ The --sjdbOverhang is used only at the genome generation step, and tells STAR ho
 
 On the other hand, --alignSJDBoverhangMin is used at the mapping step to define the minimum allowed overhang over splice junctions. For example, the default value of 3 would prohibit overhangs of 1b or 2b.
 
+***
 
+## What some of the output tags in the bam file mean 
+
+From STAR google group: [here](https://groups.google.com/forum/#!topic/rna-star/dYI_O-9hDXc):
+
+In STAR's output bam file there are lines with uT tags - unmapped type -, which are used for labeling unmapped reads:
+
+* uT:A:0 - other (no good anchor seeds)
+* uT:A:1 - too short
+* uT:A:2 - too many mismatches
+* uT:A:3 - mapped to too many loci
