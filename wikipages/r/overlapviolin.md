@@ -1,3 +1,8 @@
+---
+layout: default
+title: Creating overlapping violin plots using ggplot2 
+---
+
 ## Creating overlapping violin plots using ggplot2
 Based on [this]() StackOverflow question:
 

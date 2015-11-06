@@ -16,6 +16,9 @@ published: true
 
 [(Customize how git log is displayed)](/wikipages/gitlog.html)
 
+## Python
+[(All variables defined and their values)](/wikipages/python/whatvariablesarehere.html) [(Chromosome size from fasta)](/wikipages/python/chromosomesize.html) [(Open file & write line-by-line)](/wikipages/python/openwritelinebyline.html)
+
 ## LaTeX 
 
 [(Things I like to forget)](/wikipages/latex.html)
