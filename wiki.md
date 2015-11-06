@@ -1,6 +1,5 @@
 ---
 layout: page
-title: Wiki
 published: true
 ---
 
@@ -31,8 +30,3 @@ published: true
 
 ![(Chart chooser infografic)](/images/choosing-a-good-chart-09.jpg "Visualisation type choosing infografic")
 
-## Others to do.
-
-- R: finish
-- Python
-- personal
