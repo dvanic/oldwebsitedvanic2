@@ -69,6 +69,9 @@ published: true
 
 [STAR](/wikipages/ngs/star.html) [MATS](/wikipages/ngs/mats.html) [DGEA](/wikipages/ngs/dgea.html)
 
+## Data visualisation
+
+![Chart chooser infografic](/images/choosing-a-good-chart-09.jpg "Visualisation type choosing infografic")
 
 ## Others to do.
 
