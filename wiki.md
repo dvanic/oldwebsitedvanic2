@@ -52,7 +52,7 @@ published: true
 
 [Venn](/wikipages/r/venn.html)
 
-[Violin plots - overlapping](/wikipages/r/overlapviolin.html)
+[Violin plots - overlapping multiple datasets](/wikipages/r/overlapviolin.html)
 
 [Volcano](/wikipages/r/volcano.html)
 
