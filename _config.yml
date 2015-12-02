@@ -24,10 +24,24 @@ gaaccount: ''
 disqus: 'dvanicw'
 comments: true
 
-permalink: /:year/:month/:title
+# Permalinks
+permalink: /blog/:title.html
 gems: [jekyll-paginate]
 paginate: 3
-paginate_path: "page:num"
+paginate_path: "/blog/page:num"
+
+# Pages list
+pages_list:
+  Research: '/research.html'
+  Teaching: '/teaching.html'
+  CV: '/cv.html'
+  Blog: '/blog'
+  Contact: '/contact.html'
+  #Feed: '/blog/atom.xml'
+
+#author:
+#  name:'Darya Vanichkina'
+#   url: https://twitter.com/dvanichkina
 
 highlighter: pygments
 markdown: redcarpet
