@@ -2,7 +2,6 @@
 layout: page
 title: Contact me!
 ---
-<small>
 ### Physical address
 
 	Taft Laboratory
@@ -25,4 +24,3 @@ d.[lastname] at gmail [dot] com
 * <a href="https://www.researchgate.net/profile/Darya_Vanichkina/">ResearchGate</a>
 * <a href="http://www.slideshare.net/DaryaVanichkina1"> Slideshare </a>
 * <a href="https://twitter.com/dvanichkina">Twitter</a>
-</small>

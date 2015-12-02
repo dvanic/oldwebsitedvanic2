@@ -1,6 +1,6 @@
 # Jekyll configuration
 
-name: Darya Vanichkina 
+name: Darya Vanichkina
 description: Genomics Data Scientist
 
 # url is currently only used only for the RSS feed in feed.xml
@@ -32,16 +32,16 @@ paginate_path: "/blog/page:num"
 
 # Pages list
 pages_list:
-  Research: '/research.html'
-  Teaching: '/teaching.html'
-  CV: '/cv.html'
   Blog: '/blog'
-  Contact: '/contact.html'
+  Wiki: '/wiki'
   #Feed: '/blog/atom.xml'
 
 #author:
 #  name:'Darya Vanichkina'
 #   url: https://twitter.com/dvanichkina
+
+# Maybe this will work:
+base-font-size: 20
 
 highlighter: pygments
 markdown: redcarpet

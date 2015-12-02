@@ -18,7 +18,7 @@ published: true
 ## Python
 [(All variables defined and their values)](/wikipages/python/whatvariablesarehere.html) [(Chromosome size from fasta)](/wikipages/python/chromosomesize.html) [(Open file & write line-by-line)](/wikipages/python/openwritelinebyline.html)
 
-## LaTeX 
+## LaTeX
 
 [(Things I like to forget)](/wikipages/latex.html)
 
@@ -29,4 +29,3 @@ published: true
 ## Data visualisation
 
 ![(Chart chooser infografic)](/images/choosing-a-good-chart-09.jpg "Visualisation type choosing infografic")
-
