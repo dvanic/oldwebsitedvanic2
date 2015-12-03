@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="//js/jquery.min.js"></script>
+    <script src="//js/bootstrap.min.js"></script>
+    <link href="//css/bootstrap.min.css" rel="stylesheet">
+    <link href="//css/theme.css" rel="stylesheet">
+</head>
+
+<body>
+
+<div class="container-fluid">
+    <div class="row-fluid">
+        <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="//"></a>
+              </div>
+              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="//">Home</a></li>
+                    <li class="active visible-xs-block"><a href="//links.html">Links</a></li>
+                    <li class="active"><a href="//archive.html">Archive</a></li>
+                    <li class="active"><a href="//about.html">About</a></li>
+                    <li class="active"><a href="//feed.xml">RSS</a></li>
+                    
+                </ul>
+              </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="container container-left">
+    <div class="row">
+        <div class="col-md-3 hidden-xs">
+            <div class="sidebar well">
+Genomics data scientist
+</div>
+
+<div class="sidebar well">
+    <h1>Recent Posts</h1>
+    <ul>
+        
+          <li><a href="//blog/lorne2012poster.html">Lorne Genome 2012 poster</a></li>
+        
+          <li><a href="//blog/ciRNApapers.html">2013 ciRNA papers</a></li>
+        
+          <li><a href="//blog/helloworld.html">Hello World!</a></li>
+        
+    </ul>
+</div>
+
+<div class="sidebar well">
+<h1>Links</h1>
+<ul>
+  <li><a href="#">One</a></li>
+  <li><a href="#">Two</a></li>
+  <li><a href="#">Three</a></li>
+  <li><a href="#">Four</a></li>
+</ul>
+
+</div>
+
+        </div>
+        <div class="col-md-9">
+            <div class="highlight"><pre><code class="language-text" data-lang="text">## Compare Sam&#39;s with Illumina body map -----
+IBM &lt;- read.table(&quot;~/Documents/A_A_MyProjects/01_ActivityStudy/CounttablesForQuickExploration/IBM/bigIBM.table&quot;, col.names=c(&quot;Geneadipose&quot;, &quot;adipose&quot;,&quot;Geneadrenal&quot;, &quot;adrenal&quot;,&quot;Genebrain&quot;, &quot;brain&quot;,&quot;Genebreast&quot;, &quot;breast&quot;,&quot;Genecolon&quot;, &quot;colon&quot;,&quot;Geneheart&quot;, &quot;heart&quot;,&quot;Genekidney&quot;, &quot;kidney&quot;,&quot;Geneliver&quot;, &quot;liver&quot;,&quot;Genelung&quot;, &quot;lung&quot;,&quot;Genelymphnode&quot;, &quot;lymphnode&quot;,&quot;Geneovary&quot;, &quot;ovary&quot;,&quot;Geneprostate&quot;, &quot;prostate&quot;,&quot;Geneskeletalmuscle&quot;, &quot;skeletalmuscle&quot;,&quot;Genetestes&quot;, &quot;testes&quot;,&quot;Genethyroid&quot;, &quot;thyroid&quot;,&quot;Gene&quot;, &quot;whiteblood&quot;), sep=&quot;\t&quot;)
+IBM$Geneadipose &lt;- NULL
+IBM$Geneadrenal &lt;- NULL
+IBM$Genebrain &lt;- NULL
+IBM$Genebreast &lt;- NULL
+IBM$Genecolon &lt;- NULL
+IBM$Geneheart &lt;- NULL
+IBM$Genekidney &lt;- NULL
+IBM$Geneliver &lt;- NULL
+IBM$Genelung &lt;- NULL
+IBM$Genelymphnode &lt;- NULL
+IBM$Geneovary &lt;- NULL
+IBM$Geneprostate &lt;- NULL
+IBM$Geneskeletalmuscle &lt;- NULL
+IBM$Genetestes &lt;- NULL
+IBM$Genethyroid &lt;- NULL
+row.names(IBM) &lt;- IBM$Gene
+#IBM$Gene &lt;- NULL
+counttable.sam &lt;- backup.sam
+IBMUs &lt;- merge.data.frame(IBM, counttable.sam, by.x=&quot;Gene&quot;, by.y=&quot;Gene&quot;)
+tmp &lt;- merge.data.frame(IBMUs, counttable.C32,by.x=&quot;Gene&quot;, by.y=&quot;Gene&quot; )
+IBMUs &lt;- tmp
+rm(IBM, tmp)
+
+conds &lt;- factor(c( &quot;adipose&quot;, &quot;adrenal&quot;, &quot;brain&quot;, &quot;breast&quot;, &quot;colon&quot;, &quot;heart&quot;, &quot;kidney&quot;, &quot;liver&quot;, &quot;lung&quot;, &quot;lymphnode&quot;, &quot;ovary&quot;, &quot;prostate&quot;, &quot;skeletalmuscle&quot;, &quot;testes&quot;, &quot;thyroid&quot;, &quot;whiteblood&quot;,&quot;C11d0&quot;, &quot;C11d0&quot;, &quot;C11d0&quot;, &quot;MC3d0&quot;, &quot;MC3d0&quot;, &quot;MC3d0&quot;,&quot;C11d34&quot;, &quot;C11d34&quot;, &quot;C11d34&quot;, &quot;MC3d34&quot;, &quot;MC3d34&quot;, &quot;MC3d34&quot;, &quot;C32d42&quot;, &quot;C32d42&quot;, &quot;C32d42&quot;))
+row.names(IBMUs) &lt;- IBMUs$Gene
+IBMUs$Gene &lt;- NULL                                                  
+d &lt;- newCountDataSet(IBMUs, conds)
+d &lt;- estimateSizeFactors(d)
+d &lt;- estimateDispersions(d,method = &quot;blind&quot;)
+vsdFull = varianceStabilizingTransformation( d )
+library(&quot;RColorBrewer&quot;)
+library(&quot;gplots&quot;)
+# heatmap of top 10000
+select = order(rowMeans(counts(d)), decreasing=TRUE)[1:10000]
+hmcol = colorRampPalette(brewer.pal(9, &quot;GnBu&quot;))(100)
+heatmap.2(exprs(vsdFull)[select,], col = hmcol, trace=&quot;none&quot;, margin=c(10, 6))
+
+
+# clustering by distance
+dists = dist( t( exprs(vsdFull) ) )
+mat = as.matrix( dists )
+rownames(mat) = colnames(mat) = with(pData(d), paste(condition))
+heatmap.2(mat, trace=&quot;none&quot;, col = rev(hmcol), margin=c(13, 13))
+# PCA
+library(mixOmics)
+forpca &lt;- as.data.frame(t(exprs(vsdFull)))
+dim(forpca)
+# [1]    31 46734
+pcatune(forpca, center = TRUE, scale. = FALSE)
+# 29 percent is explained by dim1, 9 for dim2, 7 for dim3
+# remove the columns (genes) for which the variance is the same
+forpca2 &lt;- forpca[,apply(forpca, 2, var, na.rm=TRUE) != 0]
+# the proportions of explained variance do no change
+result &lt;- pca(forpca2, ncomp = 3, center = TRUE, scale. = TRUE)
+# Make it pretty
+## Now lets add colours to each type of cell line
+tmp1 &lt;- as.data.frame(c( &quot;adipose&quot;, &quot;adrenal&quot;, &quot;brain&quot;, &quot;breast&quot;, &quot;colon&quot;, &quot;heart&quot;, &quot;kidney&quot;, &quot;liver&quot;, &quot;lung&quot;, &quot;lymphnode&quot;, &quot;ovary&quot;, &quot;prostate&quot;, &quot;skeletalmuscle&quot;, &quot;testes&quot;, &quot;thyroid&quot;, &quot;whiteblood&quot;, &quot;C11d0&quot;, &quot;C11d0&quot;, &quot;C11d0&quot;, &quot;C11d34&quot;, &quot;C11d34&quot;, &quot;C11d34&quot;, &quot;MC3d0&quot;, &quot;MC3d0&quot;, &quot;MC3d0&quot;, &quot;MC3d34&quot;, &quot;MC3d34&quot;, &quot;MC3d34&quot;, &quot;C32d42&quot;, &quot;C32d42&quot;, &quot;C32d42&quot; ))
+names(tmp1) &lt;- c(&quot;class&quot;)
+# tmp &lt;- cbind(tmp1,forpca2)
+
+
+col.drug = as.numeric(as.factor(tmp1$class))
+col.drug[col.drug == 1] &lt;- &#39;antiquewhite&#39;
+col.drug[col.drug == 2] &lt;- &#39;mediumaquamarine&#39;
+col.drug[col.drug == 3] &lt;- &#39;magenta1&#39;
+col.drug[col.drug == 4] &lt;- &#39;azure4&#39;
+col.drug[col.drug == 5] &lt;- &#39;blue&#39;
+col.drug[col.drug == 6] &lt;- &#39;blueviolet&#39;
+col.drug[col.drug == 7] &lt;- &#39;brown&#39;
+col.drug[col.drug == 8] &lt;- &#39;aquamarine&#39;
+col.drug[col.drug == 9] &lt;- &#39;chartreuse&#39;
+col.drug[col.drug == 10] &lt;- &#39;darkgreen&#39;
+col.drug[col.drug == 11] &lt;- &#39;cornflowerblue&#39;
+col.drug[col.drug == 12] &lt;- &#39;cyan&#39;
+col.drug[col.drug == 13] &lt;- &#39;darkblue&#39;
+col.drug[col.drug == 14] &lt;- &#39;black&#39;
+col.drug[col.drug == 15] &lt;- &#39;deeppink&#39;
+col.drug[col.drug == 16] &lt;- &#39;lightpink&#39;
+col.drug[col.drug == 17] &lt;- &#39;yellow&#39;
+col.drug[col.drug == 18] &lt;- &#39;navy&#39;
+col.drug[col.drug == 19] &lt;- &#39;red&#39;
+col.drug[col.drug == 20] &lt;- &#39;darkolivegreen&#39;
+col.drug[col.drug == 21] &lt;- &#39;darkorchid4&#39;
+
+plotIndiv(result, comp = 1:2, ind.names = FALSE, col = col.drug, pch = 16)
+legend(20, 270, unique(tmp1$class), col = unique(col.drug), pch = 16, title = &quot;Dataset&quot;, ncol = 3, cex = 0.6)
+
+# plot3dIndiv(result, comp = 1:3, ind.names = FALSE, col = col.drug, cex=6, axes.box = &quot;both&quot;)
+# rgl.postscript(&#39;cs_multi_plotIndiv_final.ps&#39;)
+# Clean-up
+rm(mat, d, dists, hmcol, select, vsdFull)
+</code></pre></div>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid">
+    <div class="row-fluid">
+        <div class="span12 footer navbar-inverse navbar-fixed-bottom">
+            <p class="copyright">&copy;2015 . Powered by <a href="http://jekyllrb.com">Jekyll</a>, theme by <a href="https://github.com/scotte/jekyll-clean">Scott Emmons</a>
+            under
+            <a href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution</a></p>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+</body>
+</html>
+
