@@ -3,6 +3,7 @@
 
 <head>
     <link href='https://fonts.googleapis.com/css?family=Work+Sans:300,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Inconsolata:400,700' rel='stylesheet' type='text/css'>
     <meta charset="UTF-8">
     <title>{{ site.name }}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,6 +11,7 @@
     <script src="{{ site.baseurl }}/js/bootstrap.min.js"></script>
     <link href="{{ site.baseurl }}/css/bootstrap.min.css" rel="stylesheet">
     <link href="{{ site.baseurl }}/css/theme.css" rel="stylesheet">
+    <link href="/css/syntax.css" rel="stylesheet">
 </head>
 
 <body>
@@ -29,11 +31,14 @@
               <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li class="active"><a href="{{ site.baseurl }}/">Home</a></li>
-                    <li class="active"><a href="{{ site.baseurl }}/blog.html">Blog</a></li>
+                    <li class="active"><a href="{{ site.baseurl }}/blog/index.html">Blog</a></li>
 		                <li class="active"><a href="{{ site.baseurl }}/wiki.html">Wiki</a></li>
+                    <li class="active"><a href="http://au.linkedin.com/in/daryavanichkina/" target="_blank">LinkedIn</a></li>
                     {% if site.github != '' %}
-                      <li class="active"><a href="https://github.com/{{ site.github }}">Github</a></li>
+                      <li class="active"><a href="https://github.com/{{ site.github }}" target="_blank">Github</a></li>
                     {% endif %}
+                    <li class="active"><a href="https://twitter.com/dvanichkina" target="_blank">Twitter</a></li>
+
                 </ul>
               </div>
         </div>

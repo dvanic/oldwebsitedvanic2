@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Contact me!
+title: Contact me
 ---
 ### Physical address
 
@@ -19,8 +19,6 @@ d.[lastname] at gmail [dot] com
 * <a href="http://uq.academia.edu/DaryaVanichkina">Academia.edu</a>
 * <a href="http://www.epernicus.com/dpv">Epernicus</a>
 * <a href="http://figshare.com/authors/Darya_Vanichkina/278260">Figshare</a>
-* <a href="http://au.linkedin.com/in/daryavanichkina/">LinkedIn</a>
 * <a href="http://orcid.org/0000-0002-0406-164X"> ORCID </a>
 * <a href="https://www.researchgate.net/profile/Darya_Vanichkina/">ResearchGate</a>
 * <a href="http://www.slideshare.net/DaryaVanichkina1"> Slideshare </a>
-* <a href="https://twitter.com/dvanichkina">Twitter</a>

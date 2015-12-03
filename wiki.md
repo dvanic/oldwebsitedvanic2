@@ -28,4 +28,4 @@ published: true
 
 ## Data visualisation
 
-![(Chart chooser infografic)](/images/choosing-a-good-chart-09.jpg "Visualisation type choosing infografic")
+<img src="/images/choosing-a-good-chart-09.jpg" alt="Chart chooser infografic" style="width: 400px;"/>

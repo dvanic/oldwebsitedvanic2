@@ -12,12 +12,8 @@ body {
 }
 .navbar-brand {
   font-size: 20px;
-  color: #F0B500 !important;
-}
-
-
-.site-description {
-  color: #F0B500 !important;
+  color: #f07800 !important;
+  background-color: #000000;
 }
 
 .nav a {
@@ -35,6 +31,7 @@ body {
 
 .footer {
     text-align: center;
+
 }
 
 .footer a {
@@ -43,6 +40,7 @@ body {
 
 .sidebar {
   font-size: 14px;
+  color: #F0B500 !important;
 }
 
 .sidebar h1 {
@@ -96,6 +94,15 @@ body {
   font-family: 'Work Sans', sans-serif;
 }
 
+.post-content{
+  color: #E5E5E5;
+}
+
+.post-date{
+  font-size: small;
+  color: #F0B500;
+}
+
 .well a {
   color: #f07800;
 }
@@ -103,6 +110,38 @@ body {
 .well a:hover {
   color: #F0B500;
 }
+
+.col-md-9{
+  color: #E5E5E5;
+}
+
+
+.col-md-9 h1 {
+    color: #F0B500;
+    font-size: 1.3em;
+}
+
+.col-md-9 h2 {
+    color: #F0B500;
+    font-size: 1.2em;
+}
+
+.col-md-9 h3 {
+    color: #F0B500;
+    font-size: 1.3em;
+}
+
+.col-md-9 h4 {
+    color: #F0B500;
+    font-size: 1.1em;
+}
+
+.col-md-9 h5 {
+    color: #F0B500;
+    font-size: 1.1em;
+}
+
+
 
 .author {
     color: #ee4444;
