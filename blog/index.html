@@ -13,6 +13,7 @@ title: Blog
     </h1>
 
     <span class="post-date">{{ post.date | date_to_string }}</span>
+<a href="{{ post.url }}index.html#disqus_thread" data-disqus-identifier="{{post.url}}"></a>
 
     {{ post.content }}
   </div>
