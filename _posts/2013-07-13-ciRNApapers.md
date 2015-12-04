@@ -1,8 +1,6 @@
 ---
 layout: post
 title: 2013 ciRNA papers
-tags:
-- presentations
 ---
 A presentation I made for a journal club on the "1st" 3 ciRNA papers
 
