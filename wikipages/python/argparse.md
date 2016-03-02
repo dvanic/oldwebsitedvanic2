@@ -3,6 +3,9 @@ layout: page
 ---
 
 ```python
+import argparse
+import sys
+
 def process_command_line_and_env_settings():
    ## Set up parser
    parser = argparse.ArgumentParser(description='Convert jason of paperpile notes to nice markdown text')
