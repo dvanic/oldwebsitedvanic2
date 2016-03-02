@@ -18,8 +18,9 @@ git remote add upstream git@github.com:someone/coolproject.git
 ##### 3. Make some changes
 ##### 4. Then, when you want to incorporate the changes the primary developer has made:
 
-
-        git fetch upstream
-        git rebase upstream/master
+```
+git fetch upstream
+git rebase upstream/master
+```
 
 The last command interleaves your commits with theirs chronologially, thereby reducing the number of branches in the final project repository.
