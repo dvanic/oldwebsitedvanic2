@@ -13,7 +13,7 @@ published: true
 
 ## Git
 
-[(Customize how git log is displayed)](/wikipages/gitlog.html)
+[(Customize how git log is displayed)](/wikipages/gitlog.html) [(Contribute safely to others via a github fork of their project)](/wikipages/gitcontribute.html)
 
 ## Python
 [(All variables defined and their values)](/wikipages/python/whatvariablesarehere.html) [(Chromosome size from fasta)](/wikipages/python/chromosomesize.html) [(Open file & write line-by-line)](/wikipages/python/openwritelinebyline.html)
