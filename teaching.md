@@ -4,11 +4,15 @@ title: Teaching and Outreach
 ---
 
 ### Mission statement
-<p class="well">
+
+```
 I am passionate about teaching, especially programming and bioinformatics to biologists. I believe that all of us who attempt to read the book of life need to be equipped with the tools - which only bioinformatics and big data can provide - to look in an unbiased manner. I am a proponent of active learning, and (when appropriate!) project-based and activity-based learning, and condone didactic lectures only as a desperate measure. I also believe that given that science around the world is funded largely by taxpayer investment, we as a community should be held accountable to the "common man" - which is why I am involved in outreach activities to discuss the work that I do with the general public. Finally, I believe in openness: open source, open access and open data - because all of should be able to reap the rewards of living in the technological marvel that is the XXI century.
+```
 
 ### Teaching and outreach activities
+
 #### Tutor
+
 School of Chemistry and Molecular Bioscience, University of Queensland (February 2011 – present)
 
 * Since the first semester of my PhD I have tutored second and third year undergraduate courses at UQ in Molecular and Cell Biology, Microbiology, Genetics and Bioinformatics. These include BIOL3004 (Semester 1, 2013; Semester 1, 2014), BIOL2200 (Semester 1, 2012; Semester 1, 2013; Semester 1, 2014), MICR3004 (Semester 2, 2012; Semester 2, 2013), MICR3003 (Semester 1, 2011; Semester 1, 2012) and BIOL2202 (Semester 2, 2011).
@@ -16,6 +20,7 @@ School of Chemistry and Molecular Bioscience, University of Queensland (February
 * These practical courses not only teach crucial laboratory and computational methodologies, but also allow students majoring in science to interact with tutors and ask about the realities of doing research, how to apply for Honours, and what life in the scientific world is like; according to the majority of students I have interacted with, these courses represent the first time during their undergraduate education they have such mentorship. I feel extremely privileged to be able to tutor at UQ, since it allows me to inspire students about how exciting biological science really is, how important it is (and will be) for medicine and therapeutics, and that they can make novel contributions to the field if they choose to pursue a career in it.
 
 #### ATSE Wonder of Science Young Science Ambassador
+
 Australian Academy of Technological Sciences and Engineering (March 2014 - present)
 
 * The [Wonder of Science](http://wonderofscience.com.au/ "Wonder of Science") program is directed at engaging with students in Years 6 - 9 to encourage their enthusiasm about and appreciation for science and technology.
@@ -23,13 +28,16 @@ Australian Academy of Technological Sciences and Engineering (March 2014 - prese
 * I was priviledged to be selected to be part of this program, and got to visit schools in Dalby and Jandowae in the Darling Downs South West region in Queensland, where I developed exciting lessons for students that tied in with their curriculum, helped them with working on and presenting their own science projects based on this material, and was part of organizing a conference in Chinchilla for students to showcase their work.  
 
 #### Science Ambassador
+
 Institute for Molecular Bioscience Ambassador program (August 2012 – present)
 
 
 #### President
+
 Students of the Institute of Molecular Biosciences Student Association (SIMBA) (August 2011 – August 2012)
 
 #### Mentor and Adviser
+
 Club of Young Biologists, Moscow Zoo;
 Club of Young Biologists, Zvenigorod Biological Station, Lomonosov Moscow State University
 (Fall 2004 – December 2010)
@@ -46,6 +54,7 @@ Club of Young Biologists, Zvenigorod Biological Station, Lomonosov Moscow State 
   * Served as an adviser for student studies on cassowary biology in captivity at the Moscow Zoo and on algae biology at the Zvenigorod Biological Station
 
 #### FONZ Volunteer
+
 Friends of the National Zoo, Smithsonian National Zoological Park, Washington D.C. (Summer 2003 – Spring 2004)
 
 * I joined CYBZ in 2001, and when our family moved to the US I continued trying to educate people about how amazing science was, how important it was for conservation and environmental aware- ness. I volunteered at the National Zoo in Washington, where I worked as a guide in children’s programs at the zoo. I was involved in the “Summer Safari Day Camp”, a two-week program in which kids are taught about the animals that live at the zoo and in Washington’s suburbs, conser- vation and environmental awareness are promoted through zoo tours, trips to research stations, games, and arts and crafts activities; and in the “How Do You Zoo” program, designed to show children from financially disadvantaged neighborhoods in the District the different jobs required to run a zoo: the responsibilities of keepers, veterinarians, scientists and food preparation staff, and how one can pursue a career in these fields.
