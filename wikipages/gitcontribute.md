@@ -10,9 +10,9 @@ layout: page
 2. Now clone it down to your desktop:
 
 
-    git clone git@github.com:dvanic/coolproject.git
-    cd coolproject
-    git remote add upstream git@github.com:someone/coolproject.git
+     git clone git@github.com:dvanic/coolproject.git
+     cd coolproject
+     git remote add upstream git@github.com:someone/coolproject.git
 
 3. Make some changes
 4. Then, when you want to incorporate the changes the primary developer has made:
