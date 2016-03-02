@@ -5,7 +5,7 @@ title: Teaching and Outreach
 
 ### Mission statement
 
-```
+```text
 I am passionate about teaching, especially programming and bioinformatics to biologists. I believe that all of us who attempt to read the book of life need to be equipped with the tools - which only bioinformatics and big data can provide - to look in an unbiased manner. I am a proponent of active learning, and (when appropriate!) project-based and activity-based learning, and condone didactic lectures only as a desperate measure. I also believe that given that science around the world is funded largely by taxpayer investment, we as a community should be held accountable to the "common man" - which is why I am involved in outreach activities to discuss the work that I do with the general public. Finally, I believe in openness: open source, open access and open data - because all of should be able to reap the rewards of living in the technological marvel that is the XXI century.
 ```
 
