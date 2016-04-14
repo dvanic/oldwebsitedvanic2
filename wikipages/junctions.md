@@ -1,10 +1,17 @@
-#Simple awk scripts that extracts junctions from SAM
+---
+layout: page
+---
 
+# Simple awk scripts that extracts junctions from SAM
+
+```
 Usage:
 awk -f sjFromSAMcollapseUandM.awk Aligned.out.sam  | sort -V > SJ
+```
 
 SJ will contain columns 1,2,3,7,8 of the SJ.out.tab, i.e. intron coordinates and unique/multiple counts.
  
+```awk
 BEGIN {
    OFS="\t";
    mapqU=255;
@@ -52,3 +59,4 @@ for (ii in SJ) {
 
 };
 
+```

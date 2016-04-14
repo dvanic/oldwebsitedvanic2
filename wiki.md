@@ -5,7 +5,7 @@ published: true
 
 ## Bash
 
-[(Simple awk scripts that extracts junctions from SAM)](/wikipages/junctions.txt) [(Show specific line from file)](/wikipages/line.txt) [(Awk to sum)](/wikipages/awksum.txt) [(For 1 to 100)](/wikipages/for1to100.txt) [(Grep with lines above/below the current one// get only some characters around the match)](/wikipages/greppy.txt) [(Sed with newline and quotes)](/wikipages/sedwnewline.html) [(Sort folders in current directory by number of files in the folders)](/wikipages/sortdir.txt) [(Touch recursively)](/wikipages/touch.txt)
+[(Simple awk scripts that extracts junctions from SAM)](/wikipages/junctions.html) [(Show specific line from file)](/wikipages/line.html) [(Awk to sum)](/wikipages/awksum.html) [(For 1 to 100)](/wikipages/for1to100.html) [(Grep with lines above/below the current one// get only some characters around the match)](/wikipages/greppy.html) [(Sed with newline and quotes)](/wikipages/sedwnewline.html) [(Sort folders in current directory by number of files in the folders)](/wikipages/sortdir.html) [(Touch recursively)](/wikipages/touch.html)
 
 ## R
 
@@ -13,10 +13,10 @@ published: true
 
 ## Git
 
-[(Customize how git log is displayed)](/wikipages/gitlog.html)
+[(Customize how git log is displayed)](/wikipages/gitlog.html) [(Contribute safely to others via a github fork of their project)](/wikipages/gitcontribute.html)
 
 ## Python
-[(All variables defined and their values)](/wikipages/python/whatvariablesarehere.html) [(Chromosome size from fasta)](/wikipages/python/chromosomesize.html) [(Open file & write line-by-line)](/wikipages/python/openwritelinebyline.html)
+[(All variables defined and their values)](/wikipages/python/whatvariablesarehere.html) [(Argparse for one file)](/wikipages/python/argparse.html) [(Chromosome size from fasta)](/wikipages/python/chromosomesize.html) [(Open file & write line-by-line)](/wikipages/python/openwritelinebyline.html)
 
 ## LaTeX
 
