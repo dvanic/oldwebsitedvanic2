@@ -25,6 +25,7 @@ On October 24th I attented a talk by Adrian White about using Amazon AWS for res
 - supervised learning only, basic linear regression
 
 ***
+
 ## Essential services
 ### Elastic compute (EC2) 
 - elastic load balance capability interesting for when you're firing up a shiny analytics environment
@@ -173,7 +174,9 @@ QIMR: Moving data to Europe via snowball - a data store device
 - Optimising data transfer to S3
 - Examples
 
+
 ### Preliminaries
+
 #### Before worrying about upload performance:
 1. Know file size distribution and the amount of data
 	- Average file size? Largest? Smallest? Standard Deviation?
@@ -183,8 +186,7 @@ QIMR: Moving data to Europe via snowball - a data store device
 	- Will it be shared?
 	- How is it organized? How do applications access the data?
 	- Read vs. Write?
-	- Being able to answer these questions will make things much,
-much easier (with faster uploads)
+	- Being able to answer these questions will make things much, much easier (with faster uploads)
 
 
 ### Non-Network Keys to the fastest upload
@@ -208,11 +210,13 @@ upload from outside of AWS
 - Data compression
 
 ### Examples
-#### SKA array
+
+#### SKA (square kilometer) array
 - s3-parallel-upload script (python/boto2)
 - performance dropped off after ~30 parallel processes
 
 ### HPC
+
 #### Cluster HPC
 - can do placement groups - which means the compute nodes are close to each other physically at the server farm
 - storage is ephemeral, EBS, NFSv4 Amazon EFS or Lustre Intel cloud edition (PAYG), BeeGFS
@@ -221,6 +225,7 @@ upload from outside of AWS
  
 
 #### Instance types
+
 - Family - optimised for a particular use
 	- ex R3 - memory
 	- ex G2/P2 - GPU
@@ -248,5 +253,5 @@ jupiter gnu  (ask him via email)
 
 ## If you need to use a key on Windows
 
-[Mylunk](http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/putty.html)
+[Puttylink](http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/putty.html)
 
