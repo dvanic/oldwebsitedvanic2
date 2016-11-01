@@ -24,7 +24,6 @@ On October 24th I attented a talk by Adrian White about using Amazon AWS for res
 - ML module - developed for ecommerce based on how people visit websites
 - supervised learning only, basic linear regression
 
-***
 
 ## Essential services
 ### Elastic compute (EC2) 
@@ -91,8 +90,6 @@ On October 24th I attented a talk by Adrian White about using Amazon AWS for res
 - AWS Elastic Beanstalk
 	- Automate resource management
 	- can host apps with python or java or docker containers (find out more)
-***
-
 
 ### Accessing your resources
 
@@ -139,7 +136,7 @@ Can also be used in class:
 - AWS blog - best place to get updates on the main stuff that changes
 - Deeper into a topic - product page + documentation
 
-***
+
 
 # Moving data to AWS
 ### Storing data in S3 and EC2
