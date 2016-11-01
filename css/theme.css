@@ -150,3 +150,10 @@ body {
 .author a {
     color: #ee4444;
 }
+
+hr {
+height: 4px;
+color: #f07800;
+background-color: #f07800;
+border: none;
+}
