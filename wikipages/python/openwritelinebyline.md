@@ -10,3 +10,7 @@ layout: default
 
     from __future__ import print_function
     print("hi there", file=f) 
+
+## Dict create or append
+
+    bookdict.setdefault(author,[]).append(book)
